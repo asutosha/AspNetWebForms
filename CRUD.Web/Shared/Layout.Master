@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="CRUD.Web.Shared.Layout" %>
+
+<%@ Register Src="~/Components/PainelLogin.ascx" TagPrefix="uc1" TagName="PainelLogin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+
+    <title></title>
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="../Content/bootstrap-theme.css" rel="stylesheet" />
+
+</head>
+
+<body class="container">
+
+    <form id="form1" runat="server">
+
+        <div style="margin-top: 10px;">
+
+            <div class="row" style="margin-bottom: -30px;">
+
+                <div class="col-xs-3" style="float: right;">
+
+                    <uc1:PainelLogin runat="server" ID="PainelLogin" />
+
+                </div>
+
+            </div>
+
+            <asp:ContentPlaceHolder ID="conteudoPrincipal" runat="server"></asp:ContentPlaceHolder>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
