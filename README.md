@@ -1,5 +1,4 @@
 # AspNetWebForms
-Just a simple project using WebForms and Bootstrap CSS
 
 This project was made as an example of the WebForms technology and I have used the Bootstrap Framework to improve the layout and show how it works.
 
